@@ -17,7 +17,9 @@ app.use(express.json())
 app.use(cors({
    origin :[
    "http://localhost:5173",
-   "https://virtual-courses-v72h-git-main-suvams-projects-e1bd6e66.vercel.app"],
+   "https://virtual-courses-v72h-git-main-suvams-projects-e1bd6e66.vercel.app",
+   "https://virtual-courses-v72h.vercel.app"
+],
    credentials:true
 }))
 
